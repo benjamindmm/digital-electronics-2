@@ -2,7 +2,7 @@
 /**
 int main(void)
 {
-    /**
+
     GPIO_mode_output(&DDRB, LED_GREEN);  // Set output mode in DDRB reg
     GPIO_write_low(&PORTB, LED_GREEN);   // Set output low in PORTB reg
     temp = GPIO_read(&PIND, BTN);        // Read input value from PIND reg
