@@ -13,8 +13,7 @@
 ### Interrupts
 
 2. In `timer.h` header file, define macros also for Timer/Counter2. Listing of part of the header file with settings for Timer/Counter2. Always use syntax highlighting, meaningful comments, and follow C guidelines:
-
-   ```#define TIM2_stop()           TCCR2B &= ~((1<<CS22) | (1<<CS21) | (1<<CS20));
+#define TIM2_stop()           TCCR2B &= ~((1<<CS22) | (1<<CS21) | (1<<CS20));
 /** @brief Set overflow 16u, prescaler 001 --> 1 */
 #define TIM2_overflow_16u()   TCCR2B &= ~((1<<CS22) | (1<<CS21)); TCCR2B |= (1<<CS20);
 /** @brief Set overflow 128u, prescaler 010 --> 8 */
@@ -35,3 +34,5 @@
 #define TIM2_overflow_interrupt_enable()  TIMSK2 |= (1<<TOIE1);
 /** @brief Disable overflow interrupt, 0 --> disable */
 #define TIM2_overflow_interrupt_disable() TIMSK2 &= ~(1<<TOIE1);
+
+   `
