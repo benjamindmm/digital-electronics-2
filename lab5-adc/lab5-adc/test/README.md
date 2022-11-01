@@ -21,7 +21,7 @@ Consider an application for temperature measurement. Use analog temperature sens
 
 //use the proper symbol (resistnce...) precise value, name, wich pin I use...
 
-   ![![IMG_1258](https://user-images.githubusercontent.com/115087529/199303687-3312442b-2a25-4117-9ad9-56feb69cf34d.jpg)
+   ![IMG_1258](https://user-images.githubusercontent.com/115087529/199303687-3312442b-2a25-4117-9ad9-56feb69cf34d.jpg)
 ]()
 
 3. Draw two flowcharts for interrupt handler `TIMER1_OVF_vect` (which overflows every 1&nbsp;sec) and `ADC_vect`. The image can be drawn on a computer or by hand. Use clear descriptions of the individual steps of the algorithms.
